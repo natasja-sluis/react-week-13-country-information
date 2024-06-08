@@ -1,0 +1,48 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 8px;
+}
+
+.country-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.country-list li {
+    border: 1px solid darkslateblue;
+    flex-basis: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.image-flag-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-flag-container img {
+    width: 80px;
+    padding-right: 12px;
+}
+
+.population-description {
+    text-align: center;
+    font-size: 1.5rem;
+}
