@@ -11,7 +11,15 @@ img {
 button {
     background-color: darkslateblue;
     color: white;
-    padding: 8px;
+    padding: 12px 44px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.input-field-search {
+    padding: 11px 44px;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .country-list {
@@ -19,6 +27,7 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 8px;
 }
 
 .country-list li {
@@ -28,6 +37,23 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.country-information {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 400px;
+    padding: 12px;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.country-description {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .image-flag-container {
@@ -42,10 +68,7 @@ button {
     padding-right: 12px;
 }
 
-.population-description {
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 
 .asia {
    color: #9e1b32;
@@ -81,4 +104,8 @@ button {
 
 .default-continent {
     color: darkmagenta;
+}
+
+.error-message {
+    color: red;
 }
