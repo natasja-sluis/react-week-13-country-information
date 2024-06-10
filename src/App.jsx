@@ -21,6 +21,7 @@ function App() {
                 headers: {'Authorization': 'Bearer 1076|p34malEeAzxVHNRgAxOAe3XtjxpIHg19oQVwML39'},
             })
             setSingleCountry(response.data.data);
+            setCountryValue('');
             setLoaded(true);
         } catch (error) {
             toggleError(true);
