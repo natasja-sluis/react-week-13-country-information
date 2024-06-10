@@ -46,3 +46,39 @@ button {
     text-align: center;
     font-size: 1.5rem;
 }
+
+.asia {
+   color: #9e1b32;
+}
+
+.europe {
+    color: #FEBE10;
+}
+
+.africa {
+    color: #007FFF;
+}
+
+.the-caribean {
+    color: #00563B;
+}
+
+.south-america {
+    color: #006400;
+}
+
+.north-america {
+    color: #17B169;
+}
+
+.central-america {
+    color: #3EB489;
+}
+
+.australia {
+    color: #33006F;
+}
+
+.default-continent {
+    color: darkmagenta;
+}
